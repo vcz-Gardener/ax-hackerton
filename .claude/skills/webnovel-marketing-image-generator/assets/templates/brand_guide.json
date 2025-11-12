@@ -1,0 +1,89 @@
+{
+  "platform": "글링 (Geuling)",
+  "brand_colors": {
+    "primary": "#FF6B6B",
+    "secondary": "#4ECDC4",
+    "accent": "#FFE66D",
+    "dark": "#2C3E50",
+    "light": "#F7F7F7"
+  },
+  "logo": {
+    "position": "bottom-right",
+    "size": "10%",
+    "padding": "20px"
+  },
+  "typography": {
+    "primary_font": "NotoSansKR-Bold.ttf",
+    "secondary_font": "NotoSansKR-Regular.ttf",
+    "title_size_range": [50, 80],
+    "body_size_range": [30, 50]
+  },
+  "image_specs": {
+    "instagram": {
+      "size": [1080, 1080],
+      "format": "PNG",
+      "dpi": 72
+    },
+    "youtube": {
+      "size": [1280, 720],
+      "format": "PNG",
+      "dpi": 72
+    },
+    "teaser": {
+      "size": [1080, 1920],
+      "format": "PNG",
+      "dpi": 72
+    },
+    "profile": {
+      "size": [800, 1200],
+      "format": "PNG",
+      "dpi": 72
+    }
+  },
+  "text_overlay": {
+    "title": {
+      "position": "top-center",
+      "offset_y": 100,
+      "color": "#FFFFFF",
+      "stroke_width": 3,
+      "stroke_color": "#000000"
+    },
+    "quote": {
+      "position": "bottom-center",
+      "offset_y": -150,
+      "color": "#FFFFFF",
+      "stroke_width": 2,
+      "stroke_color": "#000000",
+      "max_length": 100
+    }
+  },
+  "genre_guidelines": {
+    "romance": {
+      "recommended_colors": ["#FFE5E5", "#FFB6C1", "#FF69B4"],
+      "avoid_elements": ["dark_themes", "violence"],
+      "suggested_mood": "dreamy, warm, romantic"
+    },
+    "fantasy": {
+      "recommended_colors": ["#4B0082", "#8A2BE2", "#BA55D3"],
+      "must_include": ["magical_elements", "epic_composition"],
+      "suggested_mood": "mystical, grand, adventurous"
+    },
+    "thriller": {
+      "recommended_colors": ["#2C2C2C", "#8B0000", "#DC143C"],
+      "must_include": ["high_contrast", "shadows"],
+      "suggested_mood": "tense, dark, mysterious"
+    },
+    "drama": {
+      "recommended_colors": ["#2C3E50", "#34495E", "#95A5A6"],
+      "must_include": ["realistic_setting"],
+      "suggested_mood": "sophisticated, relatable, emotional"
+    }
+  },
+  "watermark": {
+    "enabled": true,
+    "text": "글링 Geuling",
+    "opacity": 0.3,
+    "position": "bottom-right",
+    "font_size": 24
+  }
+}
